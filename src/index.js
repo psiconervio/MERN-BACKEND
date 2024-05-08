@@ -5,24 +5,24 @@ import mongoose, { model } from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { connectDB } from './db.js';
-//connectDB();
+connectDB();
 //prueba
 //const port = process.env.PORT || 3000;
 app.listen();
 //console.log(port)
 
-app.get("/",(req,res)=>{
-    const htmlresponse= `<html>
-    <head>
-        <title>
-            Hello World
-        </title>
-        </head>
-    <body>
-        <h1>Hello World</h1>
-    </html>`;
-    res.send(htmlresponse);
-});
+//app.get("/",(req,res)=>{
+//    const htmlresponse= `<html>
+//    <head>
+//        <title>
+//            Hello World
+//        </title>
+//        </head>
+//    <body>
+//        <h1>Hello World</h1>
+//    </html>`;
+//    res.send(htmlresponse);
+//});
 //
 //app.listen(port, () => {
 //  console.log(`Server is running on port uno y ${port}`);
