@@ -1,0 +1,3 @@
+Carpeta para guardar los modelos de la base de datos y controlar datos de el backend
+
+un modelo es la forma de decirle a node que se esta guardando

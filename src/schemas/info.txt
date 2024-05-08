@@ -1,0 +1,2 @@
+carpeta para validar ingreso de datos estrictos , 
+vamos a usar la biblioteca sod

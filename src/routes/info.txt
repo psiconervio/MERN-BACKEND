@@ -1,0 +1,2 @@
+Carpeta para guardar url de backend, definir endpoint o rutas que el front-end
+puede pedir

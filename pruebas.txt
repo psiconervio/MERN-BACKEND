@@ -1,0 +1,45 @@
+cambiando index.js por app.js en build --codigo 505
+cambiando routes dest "src/$1" por "src/routes/$1" error 404 
+
+"dev": "nodemon src/index.js"
+vercel.json cod
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "/src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/$1"
+    }
+  ]
+}
+no tocar index.js de builds
+
+
+
+
+
+
+organizacion app 
+mern-auth-
+	--client(carpetadelfrontend)
+	--node_modules
+	--src(backend)
+	 -controllers
+	 -libs
+	 -middlewares
+	 -models
+	 -routes
+	 -schemas
+	 -app.js
+	 -db.js
+	 -index.js
+	 -config.js
+	--packege.json
+	-.env
+	--vercel.json

@@ -1,0 +1,34 @@
+se uso los siguientes comandos para el proyecto, se configuro 
+
+npm i -y  //packgaje json
+npm i express
+npm install nodemon -D
+se configuro scripts de  packgaje.json para nodemon
+npm install morgan
+npm cors
+bcrypt es para encriptar contraseñas
+
+//comando para instalar modulos de node 
+npm i express cors bcrypt dotenv jsonwebtoken mongoose nodemon
+
+a verr
+
+
+tutorial de fatz
+
+url =https://www.youtube.com/watch?v=NmkY4JgS21A&ab_channel=FaztCode
+
+
+//etapa validacion de datos con zod 
+npm i zod
+ carpeta schema, se creo auth.scheme.js
+
+ //configuracion de cliente
+ instalamos react con  vite
+ npm install vite 
+ configuramos
+ instalamos tailwindow
+configuramos rutas de protyecto
+instalamos react router para manejar las rutas de el front end
+npm install react-router-dom
+importamos reac roouter

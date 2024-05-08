@@ -1,0 +1,8 @@
+carpeta para decir que rutas estan protegidas
+ usuarios estan autenticados
+
+ ayuda a crear funciones para validar si el usuario esta autenticado puede 
+ ingresar o no 
+
+ los midlewares son funciones que se van a ejecutar antes que la peticion llegue
+ a la ruta
