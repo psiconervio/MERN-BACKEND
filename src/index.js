@@ -5,7 +5,7 @@ import mongoose, { model } from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { connectDB } from './db.js';
-connectDB();
+//connectDB();
 //prueba
 //const port = process.env.PORT || 3000;
 //app.listen(port);
