@@ -38,3 +38,5 @@ app.use('/api',taskRoutes);
 
 
 export default app;
+
+module.exports = app;
