@@ -30,5 +30,3 @@ app.get("/",(req,res)=>{
 //oficial
 //app.listen();
 //console.log('listening on port 3000',3000);
-
-module.exports = app;
