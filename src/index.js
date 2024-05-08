@@ -7,9 +7,9 @@ import dotenv from 'dotenv';
 import { connectDB } from './db.js';
 connectDB();
 //prueba
-//const port = process.env.PORT || 3000;
-app.listen();
-//console.log(port)
+const port = process.env.PORT || 3000;
+app.listen(3000);
+console.log(port)
 
 //app.get("/",(req,res)=>{
 //    const htmlresponse= `<html>
