@@ -19,11 +19,11 @@ dotenv.config();
 //}
 //app.use(cors(corsOptions));
 const app = express();
-app.use(cors('*'
-     //{
-     //    origin:"https://mern-crud-auth-fatz.vercel.app/",
-     //    credentials:true
-     //}
+app.use(cors(
+     {
+         origin:"https://mern-crud-auth-fatz.onrender.com",
+         credentials:true
+     }
    //  {origin: "http://localhost:5173",
    //  credentials: true }
 ));
