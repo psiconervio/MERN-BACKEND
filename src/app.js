@@ -24,12 +24,12 @@ app.use(cors(
   //  origin:"https://mern-crud-auth-fatz.vercel.app/",
   //  credentials:true
   //}
-     //{
-     //    origin:"https://mern-crud-auth-fatz.onrender.com",
-     //    credentials:true
-     //}
-     {origin: "http://localhost:5173",
-     credentials: true }
+     {
+         origin:"https://mern-crud-auth-fatz.onrender.com",
+         credentials:true
+     }
+   //  {origin: "http://localhost:5173",
+   //  credentials: true }
 ));
 //peticiones al backend
 app.use(morgan('dev'));
