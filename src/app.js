@@ -29,7 +29,7 @@ app.use(cors(
 app.use(morgan('dev'));
 //convierte las peticiones en json
 app.use(express.json())
-app.use(cookieParser());
+app.use(cookieParser({ sameSite: 'none', secure: true }));
 //ruta api
 app.use('/api',authRoutes);
 app.use('/api',taskRoutes);
