@@ -8,7 +8,7 @@ const app = express();
 // Asegúrate de usar el middleware de cookie-parser en tu aplicación
 app.use(cookieParser());
 
-export function createAccessToken(req, res, payload) {
+export function createAccessToken(payload) {
   return new Promise((resolve, reject) => {
     jwt.sign(
       payload,
